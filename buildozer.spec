@@ -15,7 +15,7 @@ source.exts = py,png,jpg,kv,atlas
 version = 0.1
 
 # Головні залежності (обов'язково вказуємо kivymd і фіксуємо сумісний cython)
-requirements = python3,kivy==2.3.0,kivymd==1.1.1,pillow,requests
+requirements = python3,kivy,https://github.com/kivymd/KivyMD/archive/master.zip,pillow,requests
 
 # Фіксуємо стабільну версію cython, щоб уникнути помилок компіляції
 cython_version = 0.29.36
